@@ -16,7 +16,6 @@ body {
     text-shadow: 3px 3px 10px black;   
 }
 nav{
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,10 +23,12 @@ nav{
 nav ul{
     display: flex;
     margin-right: 30px;
+    
 }
 nav ul li{
     list-style: none;
     margin:20px;
+
 }
 nav ul li a{
     text-decoration: none;
@@ -56,6 +57,7 @@ input{
     height: 45px;
     border-radius:5px;
     border: none;
+
 }   
 .btn{
     margin: 2px 2px;
@@ -77,4 +79,25 @@ input{
     margin: auto;
     margin-top: 150px;
     margin-bottom: 20px;
+}
+.art{
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.list{
+    margin: auto;
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+}
+.list-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.back{
+    margin-top: 300px;
+    padding: 80px 20px;
+    background-color: whitesmoke;
 }
